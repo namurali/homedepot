@@ -5,11 +5,17 @@ pipeline {
         			steps {
 					         echo "Hi, this is murali"
 				      }	
-			    }
+			}
     			stage ('Two') {      
         			steps {
 					         input "Do you want to proceed"
-				      }	
-			    }
-		_}
+			        }	
+			 }
+			stage ('Three') {`
+					 steps {
+						echo "Done... last stage"
+					 }
+			}
+			+
+		}
 }
