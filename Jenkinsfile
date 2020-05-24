@@ -11,7 +11,7 @@ pipeline {
 					         input "Do you want to proceed"
 			        }	
 			 }
-			stage ('Three') {`
+			stage ('Three') {
 					 steps {
 						echo "Done... last stage"
 					 }
